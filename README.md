@@ -1,8 +1,40 @@
-# Programación de una primer versión de DApp  por Alberto López Gutiérrez
+# Programación de una primer versión de DApp  por Alberto López Gutiérrez (Trabajo Final)
 
 Este es mi primer proyecto de DApp y tiene mucho tiempo que no programo, así que estoy muy emocionado por esto. Comencemos.
 
 NOTA: Desde que inicié este master, no ha existido un grupo, siempre hemos entregado mis compañeros y yo el trabajo de forma individual, me parece que sólo ha habido un grupo. En mi caso continuaré con la entrega individual. Muchas gracias!!
+
+## Sprint 1
+
+Se seleccionará un caso de uso específico donde se utilice una DApp como parte fundamental de la solución / servicio. El caso de uso y la DApp a diseñar será libre elección por el grupo.
+
+Posibles preguntas para resolver.
+-	¿Cuál es la idea / caso de uso?
+-	¿Qué beneficios aporta la tecnología Blockchain en el caso de uso?
+-	¿Qué PROS/CONTRAS tiene el uso de una DApp frente a una aplicación tradicional?
+Objetivo de la actividad: Entender el diseño, funcionamiento y beneficios de una aplicación descentralizadas (DApp) aplicada a un posible caso de uso real.
+
+### CASO DE USO
+
+ **¿Cuál es la idea / caso de uso?**
+
+Para este caso de uso emplearemos una empresa que tiene un área de seguridad de la información, esta área por cumplimiento le fue exigido el tener integridad en los envíos de determinado tipo de archivos con el fin de poder cumplir con la triada de seguridad (confidencialidad, integridad y disponibilidad).
+A nivel ciberseguridad, la confidencialidad la cumplen con el control de accesos a los archivos y así como el cifrado de los mismos, así como la disponibilidad el poder tener bóvedas con arreglos de discos y que puedan ser redundantes, sin embargo la integridad no es algo común que se maneje en la ciberseguridad a nivel de envío de archivos, sólo en los desarrollos de programas centralizados.
+La idea es poder desarrollar una DApp que permita el intercambio de dichos archivos entre algunos usuarios ocupando la blockchain para poder otorgar integridad a las transacciones que se efectúan, y en caso de alguna auditoría, poder demostrar que la blockchain otorga ese nivel de integridad.
+
+**¿Qué beneficios aporta la tecnología Blockchain en el caso de uso?**
+
+La tecnología blockchain nació desde un inicio segura, en la cuestión de la integridad que proporciona a las transacciones que transcurren.
+Es posible el compartir información y transacciones entre diversos individuos y que estas transacciones sean comprobables, y lo mejor, no son modificables, por lo que se puede demostrar la integridad de las mismas, la inmutabilidad de estas transacciones hace de este caso de uso, algo muy viable.
+
+**¿Qué PROS/CONTRAS tiene el uso de una DApp frente a una aplicación tradicional?**
+
+En el mundo tradicional de TI, es posible recurrir a compartición de archivos por medio de carpetas compartidas, y es posible el poder habilitar logs para poder saber cuándo, cómo y quién fue la persona que realizó la subida/bajada o consulta de determinado tipo de archivos. Al igual que la blockchain, es posible poder sacar un hash de los archivos y verificar la inmutabilidad de los archivos, sin embargo no así para la transacción (lo que se conoce data en reposo/data en tránsito respectivamente). Así mismo, el sacar este hash por algunos archivos podría ser manejable, sin embargo, cuando se trata de muchos archivos, esto demanda mucho trabajo, por lo que se vuelve inviable.
+Con la nube tenemos el mismo tipo de problema, sin contar que para el caso de uso del área de seguridad de la información, la jurisdicción y quién gestiona los datos podría ser un desafio, sin contar que la integridad de las transacciones no depende del usuario, sino del protocolo de comunicaciones (https), por lo que también tener registro de esto no es viable.
+Por otro lado, se podría realizar esto con bases de datos, sin embargo tenemos el mismo problema que con la nube, fuera de que podemos resguardar la información en discos, la integridad depende de la transacción en la comunicación, misma que no está diseñada para poder establecer mecanísimos de integridad, sino de comunicación (comunicación por http o https).
+Es por eso que blockchain tiene varios PROS y mas siendo diseñada en una DApp para uso de los usuarios que así lo requieran.
+Dentro de los contras es que es necesario tener wallets que gestionen la información, por lo que es más trabajo para el personal de sistemas el que los usuarios conozcan como funciona la parte de blockchain y que sería trasladado a una DApp. Por lo que la concientización y el training sobre la DApp debe ser forzoso.
+
 
 ## Sprint 2
 
@@ -184,3 +216,42 @@ updater - ligada a la cuenta que ejecuta la transacción
 
 **- ¿Qué librería habéis implementado para la capa de conexión: Web3.js o Ethers.js? ¿Por qué?**
 Ha sido Web3.js derivado de lo enseñado en clase, no he tenido tiempo de explorar Ethers.js, ha sido esta la principal razón por la que no lo he explorado.
+
+## Sprint 3
+
+Posibles preguntas para resolver.
+-	¿Qué mejoras visuales introducirías a la DApp?
+-	¿La DApp requiere de un sistema de almacenamiento descentralizado como IPFS?
+-	¿La DApp requiere de algún mecanismo para gestionar el gas de los usuarios?
+-	¿Consideras necesario utilizar alguna solución de escalabilidad como Polygon para tu caso de uso?
+
+Objetivo de la actividad: Analizar y proponer mejoras de diseño y escalabilidad para la DApp en el caso de uso planteado.
+
+Respuestas
+
+**¿Qué mejoras visuales introducirías a la DApp?**
+
+Me parece que el manejo de errores es elemental en este tipo de aplicativos puesto que, ya que se requiere un nivel un poco más especializad en nivel técnico para manejar este tipo de aplicaciones (manejo de wallets, firmas, uso de gas, etc) en caso de algo que no salga como debiera sería muy agradecido por los usuarios del aplicativo.
+A pesar de que seguramente se ocuparía solo una red y un token para hacer las transacciones, sería muy bueno en alguna migración por actualización o mejoras, el que se pudiera agregar de forma automática las redes necesarias, por lo que se podría incorporar.
+La gestión del gas desde luego que es algo necesario, puesto que a pesar de poder mintear tokens “infinitos” para los usuarios, sería mucho mas útil el tener una entidad que gestione estos eventos.
+
+**¿La DApp requiere de un sistema de almacenamiento descentralizado como IPFS?**
+
+Sería una gran herramienta puesto que se podría cargar la DApp en dicho repositorio así como los registros, que podrían estar centralizados en este repositorio descentralizado (una disculpa por la expresión), sin embargo no es algo que sea mandatorio. Todo dependería del costo/beneficio a largo plazo
+
+**¿La DApp requiere de algún mecanismo para gestionar el gas de los usuarios?**
+
+Fue tocado en el primer punto sin embargo me parece que puede aportar mucho el tener una entidad que se haga cargo de las tarifas de gas, para que los usuarios tengan que realizar este paso, así mismo, con la mejora visual de firmar transacciones, sería ideal que esto diera como caso de uso, la integridad de cada una de las transacciones de consulta/modificación del algún archivo, anexado con su propio hash en la cadena de bloques. Al meter un factor de cobro de gas por el uso de la red, perdería un poco el sentido de la parte de la integridad.
+
+**¿Consideras necesario utilizar alguna solución de escalabilidad como Polygon para tu caso de uso?**
+
+Mi respuesta es si, puesto que se sabe que Ethereum tiene limitantes importantes, y sobre todo, para el procesamiento de transacciones. Una solución como Polygon u otras más, como las capa 2, podrían dar un mayor rendimiento en el manejo de las transacciones en volumen y en velocidad. Adicional Ethereum ha trabajado en algunos hard Fork (Dencun) que permiten optimizar a las soluciones de capa dos este tipo de cuestiones, inclusive hablando para el costo de las tarifas de gas.
+
+
+## Sprint 4
+
+
+
+
+
+##
