@@ -250,8 +250,22 @@ Mi respuesta es si, puesto que se sabe que Ethereum tiene limitantes importantes
 
 ## Sprint 4
 
+Se implementarán las últimas mejoras y customizaciones de la DApp para el caso de uso planteado. Se podrán tomar como referncia las mejoras de diseño y escalabilidad analizadas en la fase 3 de análisis.
+
+NOTA: Se puede consultar en el foro que no fue posible el tomar los datos de los smart contracts, y no he podido encontrar una solución, sin embargo si fue posible hacer la capa visual.
+
+Desplegué una máquina virtual nueva con los smart contracts y la DApp y desde un inicio, con el contrato "SimpleStorage.sol" no despliega los datos del Smart Contract.
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/07b70dbc-306c-4de2-bfc3-2c6fb566bae4)
+
+Desde que los cambios son por la parte visual, trabajaremos sobre la parte visual de la DApp de Integrity.sol
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/2b19853d-e15b-4095-b524-23f3fbda644e)
 
 
 
 
-##
+
+
+
+
