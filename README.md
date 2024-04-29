@@ -248,7 +248,7 @@ Fue tocado en el primer punto sin embargo me parece que puede aportar mucho el t
 Mi respuesta es si, puesto que se sabe que Ethereum tiene limitantes importantes, y sobre todo, para el procesamiento de transacciones. Una solución como Polygon u otras más, como las capa 2, podrían dar un mayor rendimiento en el manejo de las transacciones en volumen y en velocidad. Adicional Ethereum ha trabajado en algunos hard Fork (Dencun) que permiten optimizar a las soluciones de capa dos este tipo de cuestiones, inclusive hablando para el costo de las tarifas de gas.
 
 
-## Sprint 4
+## Fase 4
 
 Se implementarán las últimas mejoras y customizaciones de la DApp para el caso de uso planteado. Se podrán tomar como referncia las mejoras de diseño y escalabilidad analizadas en la fase 3 de análisis.
 
