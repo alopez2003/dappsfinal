@@ -258,6 +258,56 @@ Desplegué una máquina virtual nueva con los smart contracts y la DApp y desde 
 
 ![image](https://github.com/alopez2003/dappsfinal/assets/67942268/07b70dbc-306c-4de2-bfc3-2c6fb566bae4)
 
+
+NOTA 2: También se desplegó el contrato por medio de truffle en la red de Sepolia, pero aún así tuvimos el mismo problema
+
+Saldo en ETH en Sepolia
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/d33d4ce1-26c5-4e16-b35b-02c98bb76e51)
+
+Se descomenta la parte de dashboard, en las redes dentro del archivo truffle-config.js
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/63c76c33-4381-46ca-9245-4ecc93fdb4d1)
+
+Se ejecuta el comando "truffle dashboard" para inicializar truffle con conexión a la wallet de MetaMask
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/36f6c2cd-8a63-47f7-bee6-75314b8f8f47)
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/6b7977a8-fb5c-4458-8e80-8af1221d1683)
+
+Conectamos con la wallet en la red de Sepolia, y con saldo de 0.5 ETH (SepoliaETH)
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/88752b0f-3277-431f-935e-fcf6fc43355b)
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/8e9a395e-7247-408e-847b-036798482844)
+
+Verificamos en la parte de abajo que ya se encuentra conectada
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/7520e6bb-be29-4be6-89bc-a56eac5d5606)
+
+Compilamos los contratos para verificar que todo se encuentra correctamente desplegado
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/9db758b0-ec06-428f-b470-5e6931ea8dca)
+
+Ejecutamos el comando "truffle migrate --network dashboard" para desplegar los contratos
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/bd883930-fc15-4290-842e-ee92fbfa463d)
+
+Firmamos los dos contratos en truffle "SimpleStorage.sol" e "Integrity.sol" tanto en truffle como en Metamask
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/9a49070b-9f96-4244-9eb8-72911cc75801)
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/b153ea0a-f53b-4a2e-8459-6cba14976194)
+
+Y listo, vemos que todo se despliega de forma correcta para la conexión en truffle
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/6ab69420-23e9-42bf-94d0-578907e0542a)
+
+Sin embargo, seguimos teniendo el problema de despliegue en react de la lectura de los datos del smart contract, inclusive de la red de conexión
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/58108453-275a-48b0-b2c4-9e4b54db9fde)
+
+
 Desde que los cambios son por la parte visual, trabajaremos sobre la parte visual de la DApp de Integrity.sol
 
 ![image](https://github.com/alopez2003/dappsfinal/assets/67942268/2b19853d-e15b-4095-b524-23f3fbda644e)
