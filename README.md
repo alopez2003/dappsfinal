@@ -313,6 +313,52 @@ Desde que los cambios son por la parte visual, trabajaremos sobre la parte visua
 ![image](https://github.com/alopez2003/dappsfinal/assets/67942268/2b19853d-e15b-4095-b524-23f3fbda644e)
 
 
+Manejo de eventos del wallet
+
+Introducimos el código donde específicamos que estamos trabajando sobre la red de Goerli tanto a nivel de switch como a nivel visual
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/3966b1a1-bf3f-4869-99d4-ba1e24fc4bb9)
+
+Verificamos
+
+A pesar de que tenemos la red sobre Ganache, nos despliega el mensaje
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/6ea02259-0062-473e-892f-5f0ee31bc5f6)
+
+Cambiamos de red en MetaMask a otra, por ejemplo Ethereum Mainnet
+
+Tenemos de inicio el evento que teníamos configurado de que la red cambió
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/78735fee-5eeb-4005-a2f1-8287cc7b54f5)
+
+Nos aparece el mensaje de que la Aplicación funciona en Ganache junto con el botón
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/2a800ebc-d6e1-485b-87d8-7e5c10f98875)
+
+Al dar click en el botón, nos aparece en MetaMask cambiar a la red de Ganache
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/b83ae248-e416-4306-9fbd-d079a91f4165)
+
+Confirmamos en switch network
+
+Y vemos que ya ha regresado la red a Ganache
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/be8c4159-a61d-4268-89bc-06d13d44cb95)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
