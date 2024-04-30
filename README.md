@@ -313,7 +313,7 @@ Desde que los cambios son por la parte visual, trabajaremos sobre la parte visua
 ![image](https://github.com/alopez2003/dappsfinal/assets/67942268/2b19853d-e15b-4095-b524-23f3fbda644e)
 
 
-Manejo de eventos del wallet
+**Manejo de eventos del wallet, cambio en la red de Ganache**
 
 Introducimos el código donde específicamos que estamos trabajando sobre la red de Goerli tanto a nivel de switch como a nivel visual
 
@@ -345,6 +345,10 @@ Y vemos que ya ha regresado la red a Ganache
 
 ![image](https://github.com/alopez2003/dappsfinal/assets/67942268/be8c4159-a61d-4268-89bc-06d13d44cb95)
 
+
+**Firma de usuario**
+
+Esta función es especialmente util en este caso de uso, ya que esto está diseñado para que se sepa el usuario que está haciendo uso de esta para verificar la integridad, por lo que añadimos la pieza de código a nuestro archivo.
 
 
 
