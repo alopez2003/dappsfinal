@@ -388,37 +388,18 @@ El link otorgado es:
 
 https://bafybeibo3l2mrzsgedeua52fjokke3i326rggzcotyfiu4vi62rqern6xu.ipfs.w3s.link/
 
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/d8ba1c58-e44a-48f3-952b-7fdbe0b418ae)
 
+El link sin embargo, a pesar de que muestra un header "React App" no despliega información
 
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/8fa62df9-a08d-4138-a9f8-34598b96b373)
 
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/89414456-e0da-4d1d-a6df-5fdcca865a16)
 
+Desconozco si esto sea por el tipo de almacenamiento realizado, ya que NFT Up no funcionó de forma adecuada.
 
+Muchas gracias!!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Alberto López.
 
 
