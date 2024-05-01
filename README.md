@@ -350,6 +350,59 @@ Y vemos que ya ha regresado la red a Ganache
 
 Esta función es especialmente util en este caso de uso, ya que esto está diseñado para que se sepa el usuario que está haciendo uso de esta para verificar la integridad, por lo que añadimos la pieza de código a nuestro archivo.
 
+Vemos que se añade el botón de Firmar Mensaje
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/a88aa8fc-420c-4be7-9305-32c254a30c06)
+
+Una vez que damos click, nos da el siguiente error:
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/b493ec8a-e74d-45cd-b67e-54c91282a80b)
+
+He buscado algunas cosas en foros, pero no he tenido suerte, por lo pronto lo quitaré
+
+**Aplicación en repositorio descentralizado**
+
+Por último pondremos el aplicativo en un repositorio descentralizado, a través del servicio de NFT UP.
+
+Lo primero que haremos es ejecutar dentro de la carpeta client el comando "npm run build"
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/192dbfd5-1d03-4a74-94ad-e66230ce0b22)
+
+Vemos que fue creado el directorio build correctamente
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/afd6a2f0-2e59-4eff-97d0-c93f4af9f115)
+
+Cargamos nuestro aplicativo en NFT Up
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/cc58e763-89fb-41fe-8408-76bbf6c55d94)
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/7c3da95a-3c21-4a5e-bcca-f104dd0bd491)
+
+Vemos que nos arroja un error en la parte del API tanto con un Linux como en un Windows.
+
+Ocupamos Web3.storage
+
+![image](https://github.com/alopez2003/dappsfinal/assets/67942268/54f60069-80e9-4f3e-a657-33398597705a)
+
+El link otorgado es:
+
+https://bafybeibo3l2mrzsgedeua52fjokke3i326rggzcotyfiu4vi62rqern6xu.ipfs.w3s.link/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
